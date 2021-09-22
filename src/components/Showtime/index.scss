@@ -1,0 +1,21 @@
+
+#showtime{
+
+    position: absolute;
+    // top: 30%;
+    // left: 50%;
+    // transform: translate(-50%,-50%); 
+    top: 100px;
+    left: 50px;
+
+    width: 280px;
+    height: 180px;
+    background-color: rgba(255,255,255,.1);
+    border: 3px solid rgba(255,255,255,.3);
+    border-radius: 40px;
+
+    /* backdrop-filter 是使透过该层的底部元素模糊化 配合rgba透明度使用 */
+    backdrop-filter: blur(5px);  
+    /* 越小越不模糊 */
+
+}
